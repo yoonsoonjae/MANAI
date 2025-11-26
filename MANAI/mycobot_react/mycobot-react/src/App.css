@@ -1,0 +1,22 @@
+.layout {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+  padding: 40px;
+  background: #ddf5ff;
+  height: 100vh;
+}
+
+.cam-area, .control-area {
+  text-align: center;
+  width: 45%;
+}
+
+.cam-view {
+  width: 100%;
+  max-width: 640px;
+  height: auto;
+  border-radius: 12px;
+  border: 2px solid #222;
+  box-shadow: 0px 3px 10px rgba(0,0,0,0.3);
+}
